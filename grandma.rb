@@ -13,14 +13,10 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase && phrase == "I LOVE YOU GRANDMA!"
-    print "I LOVE YOU TOO PUMPKIN!"
+    puts "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == phrase.upcase
-    print "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   else
-    print "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
-
-speak_to_grandma("I LOVE YOU GRANDMA!")
-speak_to_grandma("Hey, Grandma")
-speak_to_grandma("HELLO")
