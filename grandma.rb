@@ -21,4 +21,6 @@ def speak_to_grandma(phrase)
   end
 end
 
-speak_to_grandma
+speak_to_grandma("I LOVE YOU GRANDMA!")
+speak_to_grandma("Hey, Grandma")
+speak_to_grandma("HELLO")
